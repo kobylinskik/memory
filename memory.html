@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--All images used on this site have been downloaded from http://pexels.com, where they are shared under the Creative Commons Zero license-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "memory.css">
+    <link rel="stylesheet" href="vertical.css" media="screen and (orientation: portrait)")>
+    <title>My memory game</title>
+</head>
+
+<body>    
+    <div id=selectionWindow>
+        <div id=pleaseSelect>Select game mode:</div>
+        <div id=easy onclick="playGame(&#34easy&#34)"><img src="kitten.jpg" height="auto" width="100%">Easy mode<div class="modeDescription">Once you uncover a pair, it remains uncovered</div></div>
+        <div id=hard onclick="playGame(&#34hard&#34)"><img src="lion.jpg" height="auto" width="100%">Hard mode<div class="modeDescription">If you make a mistake, all cards are covered and you must start from scratch!</div></div>
+        </div>
+    <div id="menusHere">
+        <button id="newGame" onclick="openSelection()">New game!</button>
+        <button id="backgroundSelection" onclick = "background()">Select Background!</button>
+        <div id="backgroundMenu">
+           <ul>
+            <li id="forest">Forest</li>
+            <li id="desert">Desert</li>
+            <li id="sea">Sea</li>
+            <li id="mountains">Mountains</li>
+            </ul> 
+        </div></div>
+
+    <div id="game">
+        <div id="field_0" class="field"></div>
+        <div id="field_1" class="field"></div>
+        <div id="field_2" class="field"></div>
+        <div id="field_3" class="field"></div>
+        <div id="field_4" class="field"></div>
+        <div id="field_5" class="field"></div>
+        <div id="field_6" class="field"></div>
+        <div id="field_7" class="field"></div>
+        <div id="field_8" class="field"></div>
+        <div id="field_9" class="field"></div>
+        <div id="field_10" class="field"></div>
+        <div id="field_11" class="field"></div>
+        <div id="field_12" class="field"></div>
+        <div id="field_13" class="field"></div>
+        <div id="field_14" class="field"></div>
+        <div id="field_15" class="field"></div>
+        <div id="field_16" class="field"></div>
+        <div id="field_17" class="field"></div>
+        <div id="field_18" class="field"></div>
+        <div id="field_19" class="field"></div>
+        <div id="field_20" class="field"></div>
+        <div id="field_21" class="field"></div>
+        <div id="field_22" class="field"></div>
+        <div id="field_23" class="field"></div>
+        <div id="field_24" class="field"></div>
+        <div id="field_25" class="field"></div>
+        <div id="field_26" class="field"></div>
+        <div id="field_27" class="field"></div>
+        <div id="field_28" class="field"></div>
+        <div id="field_29" class="field"></div>
+        <div id="field_30" class="field"></div>
+        <div id="field_31" class="field"></div>
+        <div id="field_32" class="field"></div>
+        <div id="field_33" class="field"></div>
+        <div id="field_34" class="field"></div>
+        <div id="field_35" class="field"></div>
+        <div id="field_36" class="field"></div>
+        <div id="field_37" class="field"></div>
+        <div id="field_38" class="field"></div>
+        <div id="field_39" class="field"></div>
+    </div>
+
+    <script src="memory.js"></script>
+</body>
+</html>
